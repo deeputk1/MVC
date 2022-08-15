@@ -1,0 +1,32 @@
+﻿@using Triggerfish
+@model List<Triggerfish.Models.NewsArticleModel>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="row">
+        <!--Iterate over each article item in the article list-->
+        @foreach (var article in Model)
+        {
+            <div class="col-md-4">
+                <img class="img-responsive" src="@article.ImageUrl"/>
+                <br/>
+                <p class="read-time">
+                    @article.ReadTime
+                    <span>
+                        @Constants.MinuteReadText
+                    </span>
+                </p>
+                <h3>@article.ArticleTitle</h3>
+                <p>
+                    @article.Description
+                </p>
+                <p>
+                    <a href="https://google.com">
+                        <img class="arrow" src="../images/Arrow.png">
+                        <span class="read-insight">@Constants.ReadInsights</span>
+                    </a>
+                </p>
+            </div>
+        }
+    </div>
+}

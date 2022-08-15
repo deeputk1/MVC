@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triggerfish", "Triggerfish\Triggerfish.csproj", "{174141A1-2E5D-4213-A229-941D6325136E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{174141A1-2E5D-4213-A229-941D6325136E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174141A1-2E5D-4213-A229-941D6325136E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174141A1-2E5D-4213-A229-941D6325136E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174141A1-2E5D-4213-A229-941D6325136E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E84F4FA-0437-4ED9-A4A6-34F03581D677}
+	EndGlobalSection
+EndGlobal
